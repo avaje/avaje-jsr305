@@ -9,4 +9,15 @@ This maven artifact is expected to be provided scope and hence the annotations u
 This means that these annotations should not interfere with how a project that depends on Ebean
 uses similar annotations.
 
- 
+```xml
+
+<dependency>
+  <groupId>io.ebean</groupId>
+  <artifactId>ebean-jsr305</artifactId>
+  <version>1.1</version>
+  <!-- Uses @Retention(RetentionPolicy.CLASS) 
+       ... so provided scope expected -->
+  <scope>provided</scope>  
+</dependency>
+
+``` 
