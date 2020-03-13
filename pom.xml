@@ -4,7 +4,7 @@
 
     <groupId>io.avaje</groupId>
     <artifactId>avaje-jsr305</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <parent>
         <groupId>org.avaje</groupId>
@@ -14,7 +14,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:avaje/avaje-jsr305.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>avaje-jsr305-1.0</tag>
     </scm>
 
 </project>
